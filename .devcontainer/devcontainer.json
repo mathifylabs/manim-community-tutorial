@@ -1,8 +1,5 @@
 {
-  "name": "Manim Codespace",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
+  "name": "Manim Tutorial",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -11,6 +8,5 @@
       ]
     }
   },
-  "postCreateCommand": "pip install -r requirements.txt",
-  "remoteUser": "vscode"
+  "postCreateCommand": "sudo apt update && sudo apt install -y ffmpeg && pip install manim"
 }
