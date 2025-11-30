@@ -7,5 +7,3 @@ class SquareToCircle(Scene):
         self.play(Create(s))
         self.play(Transform(s, c))
         self.play(FadeOut(s))
-
-# manim example.py SquareToCircle -pql
